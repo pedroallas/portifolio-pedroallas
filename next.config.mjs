@@ -14,10 +14,6 @@ const nextConfig = {
   trailingSlash: true,
   // Base path para GitHub Pages ou outros hosts (deixar vazio para Netlify)
   basePath: "",
-  // Desabilitar otimizações server-side para export estático
-  experimental: {
-    appDir: true,
-  },
 };
 
 export default nextConfig;
